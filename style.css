@@ -17,7 +17,7 @@
     display: flex;
 }
 .logophoto{
-    width: 130px;
+    width: 110px;
 }
 .item{
     margin-right: 10px;
@@ -28,4 +28,94 @@
 .item:hover{
     color: rgb(255, 187, 0);
 
+}
+.banner-container{
+    /* background-color: rgba(17, 15, 15, 0.39); */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid grey; */
+    color:white;
+    align-items: center;
+     background-image: url("./images/Background.png"), linear-gradient(45deg,#030303,#111313ce); 
+}
+.banner-img{
+    width: 400px;
+   
+}
+.button_design{
+    padding: 10px,20px; 
+    color:white; 
+    background-color: red; 
+    width: 140px; 
+    height: 40px; 
+    border: none; 
+    font:bold; 
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+.button_design:hover{
+    background-color: rgb(255, 187, 0);
+
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    width: 230px;
+    height: 350px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: rgb(196, 173, 123);
+    text-align: center;
+    padding: 15px;
+    color: white;
+    
+}
+.icon{
+    width: 70px;
+}
+.boxbutton_design{
+    padding: 10px,20px; 
+    color:rgb(247, 242, 242); 
+    width: 140px; 
+    height: 40px; 
+    border: none; 
+    font:bold; 
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: rgb(14, 13, 13);
+    margin-top: 10px;
+}
+.box-titles{
+    padding: 20px;
+    color: #030303;
+
+
+}
+.box-desc{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/Background.png"), linear-gradient(45deg,#030303,#111313ce); 
 }
